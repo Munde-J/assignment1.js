@@ -36,7 +36,9 @@ this.fruitsPriceList={
 
 } 
 this.getTotalCost= function(){
-   return `${this.quantity*this.fruitsPriceList[fruits]}`
+    let total_cost = quantity*this.fruitsPriceList[fruits]
+    return`${quantity} ${fruits} for KES ${total_cost}/=`
+//    return `${quantity*this.fruitsPriceList[fruits]}`
 }
 }
  
