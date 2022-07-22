@@ -80,13 +80,14 @@
  }
  
  let farmers = new Mkulima();
- farmers.addFarm("34","Angela","Munde","0712345678", "Nakuru");
- farmers.addFarm("378","Manuela","June","+254712347436", "Kisumu");
- farmers.addFarm("109","Joy","Ochieng'","0798766545", "Maseno");
+ farmers.addFarm("34","Greengrams","Angela","0712345678", "Nakuru");
+ farmers.addFarm("378","Potatoes","June","+254712347436", "Kisumu");
+ farmers.addFarm("109","Tomatoes","Ochieng'","0798766545", "Maseno");
  console.log(farmers.farms);
  
  farmers.removeFarm("456");
  console.log();
  
- 
+
+
  
